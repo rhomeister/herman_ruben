@@ -1,0 +1,18 @@
+Objective: do we have enough people?
+
+Input: 
+- we have a bunch of available users
+- each user has a set of skills
+- some skills are mutually exclusive
+- of each skill, we need a certain number
+
+
+Example:
+- Ruben, Herman
+- Ruben: [Driver], Herman: [Driver, Commander]
+- Driver and Commander are mutex
+- We need 1 driver and 1 commander
+
+Question: do we have enough?
+Yes: because Herman will be Commander, and Ruben Driver
+
